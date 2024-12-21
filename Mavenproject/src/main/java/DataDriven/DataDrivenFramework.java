@@ -19,7 +19,7 @@ public class DataDrivenFramework {
 
 		WebDriver d=new ChromeDriver();
 		d.get("https://biodataking.com/");
-		Thread.sleep(5000);
+		Thread.sleep(10000);
 		
 		
 		FileInputStream f=new FileInputStream(new File("C:\\Users\\LAB 1 PC-6\\Desktop\\datadriven.xlsx"));
